@@ -9,7 +9,7 @@ Every horizontal menu item has its own **"Intro"** markdown file. If you would l
 
 ![Two menu items](/img/docusaurus/twomenuitems.png "Two menu items")
 
-1. Let the first **"Intro"** markdown file for the **"Articles"** menu item has the name **"introarticles.md"** and the second **"Intro"** markdown file for the **"TechCom"** menu item has the name **"introtechdoc.md"**.
+1. Let the first **"Intro"** markdown file for the **"Articles"** menu item has the name **"intro.md"** and the second **"Intro"** markdown file for the **"TechCom"** menu item has the name **"introtechdoc.md"**.
 
 ---
 
@@ -22,13 +22,17 @@ Both **"Intro"** markdown files and their corresponding **"articles"** and **"te
 ---
 
 2. Open both **"Intro"** markdown files and add their own corresponding front matters to them:
-* **"introarticles.md"** should have `displayed_sidebar: articles`
+* **"intro.md"** should have `displayed_sidebar: articles`
 
-![Two intro files](/img/docusaurus/articlesmdfrontmatter.png "Two intro files")
+> :warning: **Pay attention!**
+
+Do not rename **"intro.md"** file.
+
+![Front Matter for intro.md](/img/docusaurus/articlesmdfrontmatter.png "Front Matter for intro.md")
 
 * **"introtechdoc.md"** should have `displayed_sidebar: techdoc`
 
-![Two intro files](/img/docusaurus/techdocmdfrontmatter.png "Two intro files")
+![Front Matter for introtechdoc.md](/img/docusaurus/techdocmdfrontmatter.png "Front Matter for introtechdoc.md")
 
 3. Open the "docusaurus.config.js" file and add two elements in the `items` array. 
 
@@ -36,7 +40,7 @@ Both **"Intro"** markdown files and their corresponding **"articles"** and **"te
 
 > :warning: **Pay attention!**
 
-The `sidebarId`s have the same names as the corresponding folders names  (**"articles"** and **"techdoc"**), `docId`s have the same names as the corresponding **"Intro"** markdown files (**"introarticles.md"** and **"introtechdoc.md"**) and `label`s have the names of your horizontal menu items (**"Articles"** and **"TechCom"**).
+The `sidebarId`s have the same names as the corresponding folders names  (**"articles"** and **"techdoc"**), `docId`s have the same names as the corresponding **"Intro"** markdown files (**"intro.md"** and **"introtechdoc.md"**) and `label`s have the names of your horizontal menu items (**"Articles"** and **"TechCom"**).
 
 ![Two elements in the items array](/img/docusaurus/itemsarrayelements.png "Two elements in the items array")
 
