@@ -59,3 +59,20 @@ The `sidebarId`s have the same names as the corresponding folders names  (**"art
 The new subitems in the vertical sidebar menu will appear only after you create new markdown files inside them. 
 
 ![Folder structure](/img/docusaurus/folderstructure.png "Folder structure")
+
+6. If you want to arrange your sidebar menu items in a certain order, you need to create a `_category_.json` file in every sidebar folder you have like in the figure below.
+
+![Category json files](/img/docusaurus/categoryjson.png "Category json files")
+
+The **label** of a `_category_.json`must be the same as your sidebar menu item and the **position** as you want to be in your sidebar menu for this item. The **description** key will be shown at the page when you click on the menu item.
+
+```
+{
+  "label": "Bukvoid",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "A collection of articles, published at bukvoid.com from 2008 to 2012."
+  }
+}
+```
