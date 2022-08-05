@@ -71,7 +71,8 @@ const config = {
             label: 'Articles',
           },
           {
-            type: 'docSidebar',
+            type: 'doc',
+            docId: 'introtechdoc',
             position: 'left',
             sidebarId: 'techdoc',
             label: 'TechCom',
