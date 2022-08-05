@@ -3,9 +3,9 @@ sidebar_position: 0
 displayed_sidebar: techdoc
 ---
 
-# How to add a new horizontal sidebar item
+# How to add a new top navigation bar item
 
-Every horizontal menu item has its own **"Intro"** markdown file. If you would like to have two different horizontal menu items (as in the figure below **"Articles"** and **"TechCom"**), you need to create its own **"Intro"** markdown file and its own folder inside the **"docs"** folder for each.
+Every top navigation bar menu item has its own **"Intro"** markdown file. If you would like to have two different top navigation bar menu items (as in the figure below **"Articles"** and **"TechCom"**), you need to create its own **"Intro"** markdown file and its own folder inside the **"docs"** folder for each.
 
 ![Two menu items](/img/docusaurus/twomenuitems.png "Two menu items")
 
@@ -26,7 +26,7 @@ Both **"Intro"** markdown files and their corresponding **"articles"** and **"te
 
 > :warning: **Pay attention!**
 
-Do not rename **"intro.md"** file.
+Do not rename **"intro.md"** file as its name is connected to other files.
 
 ![Front Matter for intro.md](/img/docusaurus/articlesmdfrontmatter.png "Front Matter for intro.md")
 
@@ -40,7 +40,7 @@ Do not rename **"intro.md"** file.
 
 > :warning: **Pay attention!**
 
-The `sidebarId`s have the same names as the corresponding folders names  (**"articles"** and **"techdoc"**), `docId`s have the same names as the corresponding **"Intro"** markdown files (**"intro.md"** and **"introtechdoc.md"**) and `label`s have the names of your horizontal menu items (**"Articles"** and **"TechCom"**).
+The `sidebarId`s have the same names as the corresponding folders names  (**"articles"** and **"techdoc"**), `docId`s have the same names as the corresponding **"Intro"** markdown files (**"intro.md"** and **"introtechdoc.md"**) and `label`s have the names of your top navigation bar menu items (**"Articles"** and **"TechCom"**).
 
 ![Two elements in the items array](/img/docusaurus/itemsarrayelements.png "Two elements in the items array")
 
@@ -50,12 +50,12 @@ The `sidebarId`s have the same names as the corresponding folders names  (**"art
 
 ![Two elements in the const sidebars array](/img/docusaurus/constsidebar.png "Two elements in the const sidebars array")
 
-5. After you create new folders inside the horizontal menu item folders (**"articles"** and **"techdoc"**), they will appear as new subitems in the vertical menu. 
+5. After you create new folders inside the top navigation bar menu item folders (**"articles"** and **"techdoc"**), they will appear as new subitems in the vertical sidebar menu. 
 
 ---
 
 > :warning: **Pay attention!**
 
-The new subitems in the vertical menu will appear only after you create new markdown files inside them. 
+The new subitems in the vertical sidebar menu will appear only after you create new markdown files inside them. 
 
 ![Folder structure](/img/docusaurus/folderstructure.png "Folder structure")
