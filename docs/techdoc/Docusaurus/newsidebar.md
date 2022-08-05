@@ -64,7 +64,7 @@ The new subitems in the vertical sidebar menu will appear only after you create 
 
 ![Category json files](/img/docusaurus/categoryjson.png "Category json files")
 
-The **label** of a `_category_.json`must be the same as your sidebar menu item and the **position** as you want to be in your sidebar menu for this item. The **description** key will be shown at the page when you click on the menu item.
+The **label** of a `_category_.json` must be the same as your sidebar menu item and the **position** as you want to be in your sidebar menu for this item. The **description** key will be shown at the page when you click on the menu item.
 
 ```
 {
