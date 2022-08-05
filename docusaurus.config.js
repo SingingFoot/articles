@@ -67,6 +67,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
+            sidebarId: 'articles',
             label: 'Articles',
           },
           {
