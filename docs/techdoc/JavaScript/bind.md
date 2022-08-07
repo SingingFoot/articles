@@ -31,3 +31,10 @@ Age is 37
 ```
 
 This way, the function of the first object **person1** is called in the context of the second object **person2**, which saves many lines of code that no longer need to be added to the second object. This is especially important if the function of the first object is very complex or repeated many times for a large number of different objects.
+
+Methods **call** and **apply** are very similar to **bind** in the sense of the context, but they don't need to be called like **bind** `person1.logInfo.bind(person2)();`. 
+
+```
+person1.logInfo.call(person2);
+person1.logInfo.apply(person2);
+```
