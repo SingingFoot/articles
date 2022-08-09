@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkarticles=self.webpackChunkarticles||[]).push([[9153],{6731:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/metamodern","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

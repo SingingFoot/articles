@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkarticles=self.webpackChunkarticles||[]).push([[3202],{7677:e=>{e.exports=JSON.parse('{"label":"metamodern","permalink":"/blog/tags/metamodern","allTagsPath":"/blog/tags","count":1}')}}]);

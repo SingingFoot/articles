@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkarticles=self.webpackChunkarticles||[]).push([[6672],{930:s=>{s.exports=JSON.parse('{"label":"cultural studies","permalink":"/blog/tags/cultural-studies","allTagsPath":"/blog/tags","count":1}')}}]);

@@ -2,11 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://your-docusaurus-test-site.com/blog</id>
     <title>Articles Blog</title>
-    <updated>2022-03-04T00:00:00.000Z</updated>
+    <updated>2022-08-09T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://your-docusaurus-test-site.com/blog"/>
     <subtitle>Articles Blog</subtitle>
     <icon>https://your-docusaurus-test-site.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Еволюція ідеології культурної парадигми]]></title>
+        <id>evolution-of-ideology</id>
+        <link href="https://your-docusaurus-test-site.com/blog/evolution-of-ideology"/>
+        <updated>2022-08-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[---]]></summary>
+        <content type="html"><![CDATA[<hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="архаїчне-домодерне-суспільство-0---1900">Архаїчне домодерне суспільство (0 - 1900)<a class="hash-link" href="#архаїчне-домодерне-суспільство-0---1900" title="Direct link to heading">​</a></h3><hr><p>Головним є Бог, а його представники на Землі - Цар, Король і Папа Римський. Вони і тільки вони створюють естетичні орієнтири, аби відрізнити прекрасне від потворного. А хто проти, тому Король накаже відрубати голову.</p><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="модерне-суспільство-1900---1950">Модерне суспільство (1900 - 1950)<a class="hash-link" href="#модерне-суспільство-1900---1950" title="Direct link to heading">​</a></h3><hr><p>Головним є щось невідоме, за межами досвіду людини, ми ніколи не зможемо зрозуміти, що це і навіть побачити його, але воно точно існує і скоро, дуже-дуже скоро всі у цьому переконаються. А хто в це не вірить, той ворог народу, зараз наша партія організує суд і винесе вирок, а цей виродок потрапить до ГУЛАГу, Заксенгаузену, буде розстріляний, спалений у крематорії, повішений або закатований. Кому пощастить - потрапить за ґрати років на 10. Без права листування.</p><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="постмодерне-суспільство-1950---2010">Постмодерне суспільство (1950 - 2010)<a class="hash-link" href="#постмодерне-суспільство-1950---2010" title="Direct link to heading">​</a></h3><hr><p>Вам все набрехали. Немає нічого головного, все однакове, робіть, що хочете, це ніяк не карається, ніхто нікого нікуди не посадить і не розстріляє. Навіть пальці в дверях не защемлять. Немає ніяких обмежень. Цінність мистецтва хоч і виникає на перетині особливого унікального погляду митця та суспільного резонансу доби, але вона не є абсолютною для всіх. Якщо одна людина бачить цінність, то вона існує тільки для неї персонально. Немає жодної переваги смаків мільйонів людей перед смаками одної людини. Взагалі немає ніяких переваг ні в чому. Звісно, відсутність ієрархій провокує аматорство і графоманію, ну то й що? А чим геній краще за графомана? Та нічим.</p><hr><h3 class="anchor anchorWithStickyNavbar_LWe7" id="метамодерне-суспільство-2010---сьогодні">Метамодерне суспільство (2010 - сьогодні)<a class="hash-link" href="#метамодерне-суспільство-2010---сьогодні" title="Direct link to heading">​</a></h3><hr><p>Головним є те, що нам подобається зараз. Через секунду ми можемо про це забути. Але зате ми можемо вважати головними речі, які суперечать одна одній, а можемо й не вважати. Взагалі немає ніяких "ми", не існує особистостей та персоналій, все розпливається і змінюється кожну мить, перемішується, знову зосереджується в той момент, коли в цьому виникає сенс, за мить сенс зникає, а може, його й не було. Ніхто нічого не пам'ятає більше 5 хвилин. А навіщо? Все одно все можна загуглити. Щоправда в мережі багато фейків. Ну то й що? Правда - це те, що нам зараз подобається і приносить задоволення.</p>]]></content>
+        <author>
+            <name>Oleh Shynkarenko</name>
+            <uri>https://github.com/SingingFoot</uri>
+        </author>
+        <category label="philosophy" term="philosophy"/>
+        <category label="cultural studies" term="cultural studies"/>
+        <category label="ideology" term="ideology"/>
+        <category label="modern" term="modern"/>
+        <category label="postmodern" term="postmodern"/>
+        <category label="metamodern" term="metamodern"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[What is going on in Ukraine?]]></title>
         <id>war-in-ukraine</id>
@@ -52,20 +70,6 @@
             <name>Sébastien Lorber</name>
             <uri>https://sebastienlorber.com</uri>
         </author>
-        <category label="docusaurus" term="docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Long Blog Post]]></title>
-        <id>long-blog-post</id>
-        <link href="https://your-docusaurus-test-site.com/blog/long-blog-post"/>
-        <updated>2019-05-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is the summary of a very long blog post,]]></summary>
-        <content type="html"><![CDATA[<p>This is the summary of a very long blog post,</p><p>Use a <code>&lt;!--</code> <code>truncate</code> <code>--&gt;</code> comment to limit blog post size in the list view.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
-        <author>
-            <name>Endilie Yacop Sucipto</name>
-            <uri>https://github.com/endiliey</uri>
-        </author>
-        <category label="hello" term="hello"/>
         <category label="docusaurus" term="docusaurus"/>
     </entry>
 </feed>
