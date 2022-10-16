@@ -1,7 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 displayed_sidebar: techdoc
 ---
+
 # How to place API in a table
 
 
@@ -34,29 +35,11 @@ Then add bootstrap code to index.html to get the table fast. Open the [Bootstrap
 ```
 </details>
 
-<br>
-
 ## Find a free API online
 
 Open the [FakeStoreApi](https://fakestoreapi.com/docs) service. FakeStoreApi is a free online REST API that you can use whenever you need Pseudo-real data for your e-commerce or shopping website without running any server-side code. It's awesome for teaching purposes, sample codes, tests, etc.
 
 You can find all the API data by clicking the [Products](https://fakestoreapi.com/products) link. 
-<details>
-  <summary>A typical element looks like that.</summary>
-```
-{
-"id":1,
-"title":"Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-"price":109.95,"description":"Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday","category":"men's clothing",
-"image":"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-"rating":{
-    "rate":3.9,
-    "count":120}
-}
-```
-</details>
-
-<br>
 
 ## Add HTML tags
 
@@ -115,7 +98,7 @@ Change titles into the table's header according to the API (Title, Description, 
 </html>
 ```
 </details>
-<br>
+
 Change the first cell in the first row from "1" to "name" and delete second and third rows.
 
 <details>
@@ -160,8 +143,6 @@ Change the first cell in the first row from "1" to "name" and delete second and 
 
 </details>
 
-<br>
-
 ## Add JS code to fetch data from API
 
 Add `<script src="script.js"></script>` code before the `</body>` closing tag. Use promises with "fetch" function. Add the [Products](https://fakestoreapi.com/products) API link as a parameter. 
@@ -178,7 +159,6 @@ fetch("https://fakestoreapi.com/products").then((data)=>{
 })
 ```
 </details>
-<br>
 
 ## Add the API data to the table
 
@@ -195,7 +175,6 @@ fetch("https://fakestoreapi.com/products").then((data)=>{
 })
 ```
 </details>
-<br>
 
 Create empty "tableData" variable and use "map" method for "objectData" to present all the data from API.
 <details>
@@ -214,7 +193,6 @@ fetch("https://fakestoreapi.com/products").then((data)=>{
 })
 ```
 </details>
-<br>
 
 Add the id to "tbody" tag `<tbody id="table_body">` and use it in the "getElementById" method with "innerHTML" method.
 <details>
@@ -234,7 +212,7 @@ fetch("https://fakestoreapi.com/products").then((data)=>{
 })
 ```
 </details>
-<br>
+
 But you can have only the last title (with "id":20) from the API in such a way. Add the "+" sign before the "=" sign in the line below to get all the data from the API.
 
 ```
@@ -260,8 +238,6 @@ tableData+=`<tr>
       </tr>`;  
 ``` 
 
-<br>
-
 ## Style the images
 
 You can see that all the images are fetched in their original size, so they are too large. You can limit the images sizes in the style.css file. Link that file in your index.html file like this.
@@ -274,7 +250,6 @@ img{
     width: 100px;
 }
 ```
-<br>
 
 ## Handle errors with "catch" method
 
@@ -303,5 +278,5 @@ fetch("https://fakestoreapi.com/products").then((data)=>{
 })
 ```
 </details>
-<br>
+
 
