@@ -99,7 +99,7 @@ Change titles into the table's header according to the API (Title, Description, 
 ```
 </details>
 
-Change the first cell in the first row from "1" to "name" and delete second and third rows.
+Change the first cell in the first row from "1" to "name" and delete second and third rows. Add id to "tbody" tag: `<tbody id="table_body">`.
 
 <details>
   <summary>The prepared index.html should look like this.</summary>
@@ -126,7 +126,7 @@ Change the first cell in the first row from "1" to "name" and delete second and 
                 <th scope="col">Image</th>
               </tr>
             </thead>
-            <tbody>
+            <tbody id="table_body">
               <tr>
                 <td>name</td>
                 <td>Mark</td>
