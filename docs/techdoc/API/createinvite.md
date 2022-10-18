@@ -25,6 +25,8 @@ Bearer followed by token
 
 Default: `Bearer {{token}}`
 
+group_id TBD. (ask developers about group id data type and how to find it)
+
 ### Body
 
 ![Body structure](/img/api/str.png "Body structure")
