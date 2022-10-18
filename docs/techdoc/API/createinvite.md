@@ -2,6 +2,7 @@
 sidebar_position: 3
 displayed_sidebar: techdoc
 ---
+
 # Create an invite to sign for a merged document group
 
 [<img src="/img/api/post.png" width="70"/>](post.png)
