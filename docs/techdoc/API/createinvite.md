@@ -5,7 +5,7 @@ displayed_sidebar: techdoc
 
 # Create an invite to sign for a merged document group
 
-[<img src="/img/api/post.png" width="70"/>](post.png)
+![POST](/img/api/post.png "POST")
     
     https://api-eval.signnow.com/documentgroup/{{group_id}}/groupinvite
  
@@ -83,7 +83,7 @@ curl --location --request POST 'https://api-eval.signnow.com/documentgroup/{{gro
 
 ### Responses
 
-[<img src="/img/api/200.png" width="70"/>](200.png)
+![200](/img/api/200.png "200")
 
 ### Body
 
