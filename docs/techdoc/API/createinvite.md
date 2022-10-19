@@ -5,11 +5,13 @@ displayed_sidebar: techdoc
 
 # Create an invite to sign for a merged document group
 
-![POST](/img/api/post.png "POST")
+![POST](/img/api/post.png "POST") 
+
     
     https://api-eval.signnow.com/documentgroup/{{group_id}}/groupinvite
  
  Creates an invite to sign for a merged document group. 
+ group_id TBD. (ask developers about group id data type and how to find it)
 
  **Requirements (if any):**
 
@@ -25,7 +27,6 @@ Bearer followed by token
 
 Default: `Bearer {{token}}`
 
-group_id TBD. (ask developers about group id data type and how to find it)
 
 ### Body
 
